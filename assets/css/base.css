@@ -12,7 +12,7 @@ ol {
 .t4s-col-item {
   padding-right: calc(var(--ts-gutter-x) * 0.5);
   padding-left: calc(var(--ts-gutter-x) * 0.5);
-  margin-bottom: var(--ts-gutter-y);
+  margin-top: var(--ts-gutter-y);
   box-sizing: border-box;
   max-width: 100%;
 }
@@ -139,4 +139,240 @@ ol {
 .t4s-g-40,
 .t4s-gy-40 {
   --ts-gutter-y: 40px;
+}
+
+@media (min-width: 768px) {
+  .t4s-g-md-0,
+  .t4s-gx-md-0,
+  .t4s-px-md-0 {
+    --ts-gutter-x: 0px;
+  }
+  .t4s-g-md-0,
+  .t4s-gy-md-0 {
+    --ts-gutter-y: 0px;
+  }
+  .t4s-g-md-2,
+  .t4s-gx-md-2,
+  .t4s-px-md-2 {
+    --ts-gutter-x: 2px;
+  }
+  .t4s-g-md-2,
+  .t4s-gy-md-2 {
+    --ts-gutter-y: 2px;
+  }
+  .t4s-g-md-3,
+  .t4s-gx-md-3,
+  .t4s-px-md-3 {
+    --ts-gutter-x: 3px;
+  }
+  .t4s-g-md-3,
+  .t4s-gy-md-3 {
+    --ts-gutter-y: 3px;
+  }
+  .t4s-g-md-4,
+  .t4s-gx-md-4,
+  .t4s-px-md-4 {
+    --ts-gutter-x: 4px;
+  }
+  .t4s-g-md-4,
+  .t4s-gy-md-4 {
+    --ts-gutter-y: 4px;
+  }
+  .t4s-g-md-5,
+  .t4s-gx-md-5,
+  .t4s-px-md-5 {
+    --ts-gutter-x: 5px;
+  }
+  .t4s-g-md-5,
+  .t4s-gy-md-5 {
+    --ts-gutter-y: 5px;
+  }
+  .t4s-g-md-6,
+  .t4s-gx-md-6,
+  .t4s-px-md-6 {
+    --ts-gutter-x: 6px;
+  }
+  .t4s-g-md-6,
+  .t4s-gy-md-6 {
+    --ts-gutter-y: 6px;
+  }
+  .t4s-g-md-8,
+  .t4s-gx-md-8,
+  .t4s-px-md-8 {
+    --ts-gutter-x: 8px;
+  }
+  .t4s-g-md-8,
+  .t4s-gy-md-8 {
+    --ts-gutter-y: 8px;
+  }
+  .t4s-g-md-10,
+  .t4s-gx-md-10,
+  .t4s-px-md-10 {
+    --ts-gutter-x: 10px;
+  }
+  .t4s-g-md-10,
+  .t4s-gy-md-10 {
+    --ts-gutter-y: 10px;
+  }
+  .t4s-g-md-15,
+  .t4s-gx-md-15,
+  .t4s-px-md-15 {
+    --ts-gutter-x: 15px;
+  }
+  .t4s-g-md-15,
+  .t4s-gy-md-15 {
+    --ts-gutter-y: 15px;
+  }
+  .t4s-g-md-20,
+  .t4s-gx-md-20,
+  .t4s-px-md-20 {
+    --ts-gutter-x: 20px;
+  }
+  .t4s-g-md-20,
+  .t4s-gy-md-20 {
+    --ts-gutter-y: 20px;
+  }
+  .t4s-g-md-25,
+  .t4s-gx-md-25,
+  .t4s-px-md-25 {
+    --ts-gutter-x: 25px;
+  }
+  .t4s-g-md-25,
+  .t4s-gy-md-25 {
+    --ts-gutter-y: 25px;
+  }
+  .t4s-g-md-30,
+  .t4s-gx-md-30,
+  .t4s-px-md-30 {
+    --ts-gutter-x: 30px;
+  }
+  .t4s-g-md-30,
+  .t4s-gy-md-30 {
+    --ts-gutter-y: 30px;
+  }
+  .t4s-g-md-40,
+  .t4s-gx-md-40,
+  .t4s-px-md-40 {
+    --ts-gutter-x: 40px;
+  }
+  .t4s-g-md-40,
+  .t4s-gy-md-40 {
+    --ts-gutter-y: 40px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .t4s-g-lg-0,
+  .t4s-gx-lg-0,
+  .t4s-px-lg-0 {
+    --ts-gutter-x: 0px;
+  }
+  .t4s-g-lg-0,
+  .t4s-gy-lg-0 {
+    --ts-gutter-y: 0px;
+  }
+  .t4s-g-lg-2,
+  .t4s-gx-lg-2,
+  .t4s-px-lg-2 {
+    --ts-gutter-x: 2px;
+  }
+  .t4s-g-lg-2,
+  .t4s-gy-lg-2 {
+    --ts-gutter-y: 2px;
+  }
+  .t4s-g-lg-3,
+  .t4s-gx-lg-3,
+  .t4s-px-lg-3 {
+    --ts-gutter-x: 3px;
+  }
+  .t4s-g-lg-3,
+  .t4s-gy-lg-3 {
+    --ts-gutter-y: 3px;
+  }
+  .t4s-g-lg-4,
+  .t4s-gx-lg-4,
+  .t4s-px-lg-4 {
+    --ts-gutter-x: 4px;
+  }
+  .t4s-g-lg-4,
+  .t4s-gy-lg-4 {
+    --ts-gutter-y: 4px;
+  }
+  .t4s-g-lg-5,
+  .t4s-gx-lg-5,
+  .t4s-px-lg-5 {
+    --ts-gutter-x: 5px;
+  }
+  .t4s-g-lg-5,
+  .t4s-gy-lg-5 {
+    --ts-gutter-y: 5px;
+  }
+  .t4s-g-lg-6,
+  .t4s-gx-lg-6,
+  .t4s-px-lg-6 {
+    --ts-gutter-x: 6px;
+  }
+  .t4s-g-lg-6,
+  .t4s-gy-lg-6 {
+    --ts-gutter-y: 6px;
+  }
+  .t4s-g-lg-8,
+  .t4s-gx-lg-8,
+  .t4s-px-lg-8 {
+    --ts-gutter-x: 8px;
+  }
+  .t4s-g-lg-8,
+  .t4s-gy-lg-8 {
+    --ts-gutter-y: 8px;
+  }
+  .t4s-g-lg-10,
+  .t4s-gx-lg-10,
+  .t4s-px-lg-10 {
+    --ts-gutter-x: 10px;
+  }
+  .t4s-g-lg-10,
+  .t4s-gy-lg-10 {
+    --ts-gutter-y: 10px;
+  }
+  .t4s-g-lg-15,
+  .t4s-gx-lg-15,
+  .t4s-px-lg-15 {
+    --ts-gutter-x: 15px;
+  }
+  .t4s-g-lg-15,
+  .t4s-gy-lg-15 {
+    --ts-gutter-y: 15px;
+  }
+  .t4s-g-lg-20,
+  .t4s-gx-lg-20,
+  .t4s-px-lg-20 {
+    --ts-gutter-x: 20px;
+  }
+  .t4s-g-lg-20,
+  .t4s-gy-lg-20 {
+    --ts-gutter-y: 20px;
+  }
+  .t4s-g-lg-25,
+  .t4s-gx-lg-25,
+  .t4s-px-lg-25 {
+    --ts-gutter-x: 25px;
+  }
+  .t4s-g-lg-25,
+  .t4s-gy-lg-25 {
+    --ts-gutter-y: 25px;
+  }
+  .t4s-g-lg-30,
+  .t4s-gx-lg-30,
+  .t4s-px-lg-30 {
+    --ts-gutter-x: 30px;
+  }
+  .t4s-g-lg-30,
+  .t4s-gy-lg-30 {
+    --ts-gutter-y: 30px;
+  }
+  .t4s-g-lg-40,
+  .t4s-gx-lg-40,
+  .t4s-px-lg-40 {
+    --ts-gutter-x: 40px;
+  }
 }
