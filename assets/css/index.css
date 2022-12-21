@@ -19,6 +19,17 @@ a {
   text-decoration: none;
   color: inherit;
 }
+/* overlay */
+.t4s-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 10;
+  display: none;
+}
 /* topbar css */
 .t4s-top-bar {
   background-color: #544179;
@@ -146,7 +157,6 @@ a {
   border-radius: 4px;
   display: inline-flex;
   align-items: center;
-
   font-size: 16px;
   font-weight: 400;
   font-family: var(--ff);
@@ -189,5 +199,58 @@ a {
     color: #544179;
   }
 }
+@media screen and (max-width: 990px) {
+  .t4s-header-content .t4s-group-btn {
+    margin-bottom: 10px;
+  }
+  .t4s-menu-nav .t4s-menu-nav_inner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 40%;
+    background-color: #fff;
+    margin: 0;
+    transform: translateX(-100%);
+    transition: 0.5s ease;
+    z-index: 1000;
+  }
+  .t4s-logo .t4s-menu-nav_inner.active {
+    transform: translateX(0);
+  }
+
+  .t4s-menu-nav .t4s-close-menu_nav {
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .t4s-menu-nav_inner ul li {
+    padding: 10px 20px;
+  }
+  .t4s-header ul li .t4s-nav_link::after {
+    display: none;
+  }
+}
 @media screen and (max-width: 767px) {
+  .t4s-header .t4s-group-btn .t4s-btn-open_store,
+  .t4s-header .t4s-group-btn .t4s-btn-buy_now {
+    min-width: 120px;
+    min-height: 40px;
+    font-size: 14px;
+    padding: 0 20px;
+  }
+  .t4s-menu-nav .t4s-menu-nav_inner {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .t4s-header .t4s-group-btn .t4s-btn-open_store,
+  .t4s-header .t4s-group-btn .t4s-btn-buy_now {
+    min-width: 120px;
+    min-height: 40px;
+    font-size: 12px;
+    padding: 0 10px;
+  }
+  .t4s-menu-nav .t4s-menu-nav_inner {
+    width: 80%;
+  }
 }
