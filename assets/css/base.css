@@ -4,6 +4,9 @@
 .t4s-pa {
   position: absolute;
 }
+.t4s-oh {
+  overflow: hidden;
+}
 ul,
 ol {
   margin: 0;
@@ -18,6 +21,9 @@ ol {
 }
 .t4s-col {
   flex: 1 0 0%;
+}
+.t4s-pe-none {
+  pointer-events: none;
 }
 .t4s-container {
   max-width: 1410px;
