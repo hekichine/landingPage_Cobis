@@ -12,7 +12,11 @@ ol {
   margin: 0;
   padding: 0;
 }
-
+.flickity-button:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
 .t4s-col-item {
   padding-right: calc(var(--ts-gutter-x) * 0.5);
   padding-left: calc(var(--ts-gutter-x) * 0.5);
