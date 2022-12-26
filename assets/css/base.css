@@ -12,6 +12,7 @@ ol {
   margin: 0;
   padding: 0;
 }
+
 .t4s-col-item {
   padding-right: calc(var(--ts-gutter-x) * 0.5);
   padding-left: calc(var(--ts-gutter-x) * 0.5);
@@ -28,6 +29,64 @@ ol {
 .t4s-container {
   max-width: 1410px;
   width: 100%;
+}
+.t4s-container-fluid {
+  max-width: 1920px;
+  width: 100%;
+}
+
+.t4s_ratio {
+  position: relative;
+  width: 100%;
+}
+.t4s_ratio::before {
+  display: block;
+  padding-top: var(--t4s-aspect-ratio);
+  content: "";
+}
+.no-js .t4s_ratio:not(.t4s_bg) > noscript > :not(.t4s-not-style),
+.t4s_ratio:not(.t4s_bg) > :not(.t4s-not-style) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.t4s_ratio21_9 {
+  --t4s-aspect-ratio: 42.8571428571%;
+}
+.t4s_ratio2_1 {
+  --t4s-aspect-ratio: 50%;
+}
+.t4s_ratio16_9 {
+  --t4s-aspect-ratio: 56.25%;
+}
+.t4s_ratio8_5 {
+  --t4s-aspect-ratio: 62.5%;
+}
+.t4s_ratio3_2 {
+  --t4s-aspect-ratio: 66.66%;
+}
+.t4s_ratio4_3 {
+  --t4s-aspect-ratio: 75%;
+}
+.t4s_ratio4_5 {
+  --t4s-aspect-ratio: 80%;
+}
+.t4s_ratio1_1 {
+  --t4s-aspect-ratio: 100%;
+}
+.t4s_ratio5_4 {
+  --t4s-aspect-ratio: 125%;
+}
+.t4s_rationt {
+  --t4s-aspect-ratio: 127.7777778%;
+}
+.t4s_ratio2_3 {
+  --t4s-aspect-ratio: 150%;
+}
+.t4s_ratio1_2 {
+  --t4s-aspect-ratio: 200%;
 }
 .t4s-g-0,
 .t4s-gx-0,

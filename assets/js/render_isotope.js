@@ -190,3 +190,117 @@ let htmls = dataGrid.map((item, index) => {
 });
 
 grid_item.innerHTML = htmls.join(" ");
+
+// render exclusive grid
+let exclusive_grid = document.querySelector(".t4s-gird-exclusive");
+
+let dataExclusive = [
+  {
+    id: 1,
+    url_thumbnail: "./assets/img/exclusive/1.png",
+    exclusive_save: "",
+    title: "EComposer",
+    des: "Get Theme Partner plan for FREE",
+  },
+  {
+    id: 2,
+    url_thumbnail: "./assets/img/exclusive/2.png",
+    exclusive_save: "20%",
+    title: "LayoutHub",
+    des: "20% OFF on all Paid plans",
+  },
+  {
+    id: 3,
+    url_thumbnail: "./assets/img/exclusive/3.png",
+    exclusive_save: "50%",
+    title: "Avada",
+    des: "50% OFF for all paid plans for 3 months",
+  },
+  {
+    id: 4,
+    url_thumbnail: "./assets/img/exclusive/4.png",
+    exclusive_save: "",
+    title: "Growave",
+    des: "Extended 30-day free trial",
+  },
+  {
+    id: 5,
+    url_thumbnail: "./assets/img/exclusive/5.png",
+    exclusive_save: "",
+    title: "Ryviu",
+    des: "Premium review app",
+  },
+  {
+    id: 6,
+    url_thumbnail: "./assets/img/exclusive/6.png",
+    exclusive_save: "10%",
+    title: "Loox",
+    des: "Get 10% discount",
+  },
+  {
+    id: 7,
+    url_thumbnail: "./assets/img/exclusive/7.png",
+    exclusive_save: "20%",
+    title: "Weglot",
+    des: "Get 20% off for lifetime plan",
+  },
+  {
+    id: 8,
+    url_thumbnail: "./assets/img/exclusive/8.png",
+    exclusive_save: "",
+    title: "Ali Reviews",
+    des: "Priority support",
+  },
+  {
+    id: 9,
+    url_thumbnail: "./assets/img/exclusive/9.png",
+    exclusive_save: "50%",
+    title: "Mailchimp",
+    des: "50% OFF on all Paid plans",
+  },
+  {
+    id: 10,
+    url_thumbnail: "./assets/img/exclusive/10.png",
+    exclusive_save: "",
+    title: "Flowio",
+    des: "Free 20K emails + all advanced features",
+  },
+  {
+    id: 11,
+    url_thumbnail: "./assets/img/exclusive/11.png",
+    exclusive_save: "20%",
+    title: "FlashSearch",
+    des: "Get 20% OFF on all Paid plans",
+  },
+  {
+    id: 12,
+    url_thumbnail: "./assets/img/exclusive/12.png",
+    exclusive_save: "",
+    title: "SoBooster",
+    des: "Priority support",
+  },
+];
+
+let html1s = dataExclusive.map((item, index) => {
+  return `<div class="t4s-col-item">
+              <div class="t4s-item-inner">
+                <div
+                  class="t4s-item-img d-flex justify-content-center align-items-center"
+                >
+                  <div class="t4s-item-thumbnail t4s-pr">
+                      <img src="${item.url_thumbnail}" />
+                      ${
+                        item.exclusive_save
+                          ? `<div class="t4s-save-tag t4s-pa"><span>Save ${item.exclusive_save}</span></div>`
+                          : ""
+                      }
+                  </div>
+                </div>
+                <div class="t4s-item-content">
+                  <h4>${item.title}</h4>
+                  <p>${item.des}</p>
+                </div>
+              </div>
+            </div>`;
+});
+exclusive_grid.innerHTML = html1s.join(" ");

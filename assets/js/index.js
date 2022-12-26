@@ -44,4 +44,32 @@ $(document).ready(function () {
       $(this).addClass("is-checked");
     });
   });
+
+  // slide show product+page
+  let btn_review = this.querySelectorAll(".t4s-btn-review");
+  let slide_review = this.querySelectorAll(".t4s-slide-review");
+
+  btn_review.forEach((btn, index) => {
+    let slide = slide_review[index];
+    btn.onclick = function () {
+      document
+        .querySelector(".t4s-btn-review.is-active")
+        .classList.remove("is-active");
+      document
+        .querySelector(".t4s-slide-review.is-active")
+        .classList.remove("is-active");
+      this.classList.add("is-active");
+      slide.classList.add("is-active");
+    };
+  });
+  // video popup
+  $(".popup-youtube").magnificPopup({
+    disableOn: 700,
+    type: "iframe",
+    mainClass: "mfp-fade",
+    removalDelay: 160,
+    preloader: false,
+
+    fixedContentPos: false,
+  });
 });
