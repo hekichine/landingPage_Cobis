@@ -96,6 +96,28 @@ ol {
 .t4s_ratio1_2 {
   --t4s-aspect-ratio: 200%;
 }
+.t4s_ratio_fh {
+  --t4s-aspect-ratio: 100vh;
+}
+.t4s_ratiocus1 {
+  --t4s-aspect-ratio: calc(100% / (var(--aspect-ratiocus1)));
+}
+.t4s_ratiocus2 {
+  --t4s-aspect-ratio: calc(100% / (var(--aspect-ratiocus2)));
+}
+.t4s_ratiocus3 {
+  --t4s-aspect-ratio: calc(100% / (var(--aspect-ratiocus3)));
+}
+.t4s_ratiocus4 {
+  --t4s-aspect-ratio: calc(100% / (var(--aspect-ratiocus4)));
+}
+.t4s_ratioadapt .t4s_ratio::before,
+.t4s_ratioadapt_f .t4s_ratio::before {
+  --t4s-aspect-ratio: calc(100% / (var(--aspect-ratioapt)));
+}
+.t4s_ratioadapt {
+  --aspect-ratioapt: 1.116625310173697;
+}
 .t4s-g-0,
 .t4s-gx-0,
 .t4s-px-0 {
