@@ -72,4 +72,18 @@ $(document).ready(function () {
 
     fixedContentPos: false,
   });
+  // sort slider
+  // let dataArr = [];
+  // let getHeight = document.querySelectorAll("[data-slide]");
+  // getHeight.forEach((item, index) => {
+  //   dataArr.push(item.offsetHeight);
+  // });
+  // let newHeight = dataArr.sort(function (a, b) {
+  //   return b - a;
+  // });
+  // let h = newHeight[0] + "px";
+  // getHeight.forEach((item, index) => {
+  //   item.style.height = h;
+  //   console.log(h);
+  // });
 });
