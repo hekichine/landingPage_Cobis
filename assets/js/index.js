@@ -86,4 +86,16 @@ $(document).ready(function () {
   //   item.style.height = h;
   //   console.log(h);
   // });
+  let backtop = $(".t4s-back-to-top");
+  $(window).scroll(function () {
+    let scroll = $(window).scrollTop();
+    if (scroll >= 300) {
+      backtop.addClass("is-active");
+    } else {
+      backtop.removeClass("is-active");
+    }
+  });
+  backtop.click(function () {
+    $(window).scrollTop(0);
+  });
 });
