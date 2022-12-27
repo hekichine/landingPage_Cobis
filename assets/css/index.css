@@ -1513,6 +1513,7 @@ a {
   }
   .t4s-landing-store .t4s-section-inner .t4s-col-left .t4s-item-inner {
     padding: 0;
+    padding-left: 50px;
   }
   .t4s-video-testimonial .t4s-frame-content a {
     font-size: 22px;
@@ -1562,6 +1563,9 @@ a {
   }
 }
 @media screen and (max-width: 1023px) {
+  .t4s-landing-store .t4s-section-inner .t4s-col-left .t4s-item-inner {
+    padding: 0;
+  }
   .t4s-footer-bottom .t4s-section-inner {
     padding: 0;
   }
