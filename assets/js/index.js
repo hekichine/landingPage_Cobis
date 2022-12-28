@@ -98,4 +98,6 @@ $(document).ready(function () {
   backtop.click(function () {
     $(window).scrollTop(0);
   });
+
+  // header sticky
 });
