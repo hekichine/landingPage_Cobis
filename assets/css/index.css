@@ -1455,6 +1455,11 @@ a:hover {
 }
 @media screen and (max-width: 1920px) {
   .t4s-hero-banner .t4s-banner-image {
+    left: 35%;
+  }
+}
+@media screen and (max-width: 1850px) {
+  .t4s-hero-banner .t4s-banner-image {
     left: 32%;
   }
 }
