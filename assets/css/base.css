@@ -35,9 +35,11 @@ ol {
 .t4s-pe-none {
   pointer-events: none;
 }
-.t4s-container {
-  max-width: 1440px;
-  width: 100%;
+@media screen and (min-width: 1600px) {
+  .t4s-container {
+    max-width: 1440px;
+    width: 100%;
+  }
 }
 .t4s-container-fluid {
   max-width: 1920px;
@@ -469,6 +471,9 @@ ol {
   .t4s-gx-lg-40,
   .t4s-px-lg-40 {
     --ts-gutter-x: 40px;
+  }
+  .t4s-gy-lg-40 {
+    --ts-gutter-y: 40px;
   }
   .t4s-gy-lg-64 {
     --ts-gutter-y: 64px;
