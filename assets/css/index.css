@@ -509,7 +509,6 @@ a:hover {
   margin-bottom: 16px;
   background-position: center 0%;
   background-repeat: no-repeat;
-  background-size: cover;
   transition: background-position 4s ease-in-out 0s;
 }
 
