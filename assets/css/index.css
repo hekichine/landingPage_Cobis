@@ -1549,10 +1549,8 @@ a:hover {
     display: none;
   }
 }
+
 @media screen and (max-width: 1440px) {
-  .t4s-header .t4s-col-item {
-    margin-top: 0;
-  }
   .t4s-hero-banner .t4s-hero-banner_inner {
     height: 750px;
   }
@@ -1726,6 +1724,11 @@ a:hover {
   }
   .t4s-review-pages .t4s-section-inner {
     padding: 40px 0;
+  }
+}
+@media screen and (min-width: 992px) {
+  .t4s-header .t4s-col-item {
+    margin-top: 0;
   }
 }
 @media screen and (max-width: 1023px) {
