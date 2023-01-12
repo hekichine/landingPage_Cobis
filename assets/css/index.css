@@ -4,6 +4,7 @@
   --necko: "Nerko One", cursive;
   --cl-pr: #544179;
   --cl-sc: #34ba97;
+  --text-cl-hv: #fff;
 }
 * {
   margin: 0;
@@ -616,6 +617,7 @@ a:hover {
 .t4s-landing-store .t4s-item-img {
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 5px;
 }
 .t4s-landing-store .t4s-section-inner {
   background-color: #1d1e2c;
@@ -1419,16 +1421,18 @@ a:hover {
   }
   .t4s-hero-banner .t4s-content-group_btn .t4s-prebuild-demo:hover {
     background-color: var(--cl-sc);
+    color: var(--text-cl-hv);
   }
   .t4s-hero-banner .t4s-content-group_btn .t4s-open-store_free:hover {
     background-color: var(--cl-sc);
   }
   .t4s-header .t4s-group-btn .t4s-btn-open_store:hover {
-    background-color: var(--cl-sc);
-    border-color: var(--cl-sc);
+    background-color: var(--cl-pr);
+    border-color: var(--cl-pr);
+    color: var(--text-cl-hv);
   }
   .t4s-header .t4s-group-btn .t4s-btn-buy_now:hover {
-    background-color: var(--cl-sc);
+    background-color: var(--cl-pr);
   }
   .t4s-header ul li .t4s-nav_link:hover {
     text-decoration: underline;
@@ -1451,17 +1455,17 @@ a:hover {
 }
 @media screen and (max-width: 1920px) {
   .t4s-hero-banner .t4s-banner-image {
-    left: 35%;
+    left: 32%;
   }
 }
 @media screen and (max-width: 1740px) {
   .t4s-hero-banner .t4s-banner-image {
-    left: 30%;
+    left: 27%;
   }
 }
 @media screen and (max-width: 1600px) {
   .t4s-hero-banner .t4s-banner-image {
-    left: 30%;
+    left: 20%;
   }
 
   .t4s-hero-banner .t4s-hero-banner_inner .t4s-banner-content {
