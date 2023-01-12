@@ -1550,6 +1550,9 @@ a:hover {
   }
 }
 @media screen and (max-width: 1440px) {
+  .t4s-header .t4s-col-item {
+    margin-top: 0;
+  }
   .t4s-hero-banner .t4s-hero-banner_inner {
     height: 750px;
   }
@@ -1810,7 +1813,7 @@ a:hover {
 }
 @media screen and (max-width: 990px) {
   .t4s-header-content .t4s-group-btn {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .t4s-header .t4s-header-content {
     height: 120px;
