@@ -981,7 +981,7 @@ a:hover {
   width: 150px;
   height: 222px;
   overflow: hidden;
-  flex: 1 0 auto;
+  flex: 0 0 auto;
 }
 .t4s-video-testimonial .t4s-item-inner .t4s-frame .t4s-thumbnail a > img {
   border-radius: 4px;
@@ -2181,7 +2181,8 @@ a:hover {
     display: none;
   }
   .t4s-video-testimonial .t4s-frame-content .t4s-chanel-description p {
-    display: none;
+    /* display: none; */
+    font-size: 13px;
   }
   .t4s-video-testimonial .t4s-item-inner .t4s-frame .t4s-thumbnail {
     margin-right: 5px;
