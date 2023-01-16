@@ -859,6 +859,8 @@ a:hover {
   padding: 16px 32px;
   display: inline-flex;
   width: fit-content;
+  justify-content: center;
+  align-items: center;
 }
 .t4s-review-pages img {
   width: 100%;
