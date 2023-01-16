@@ -3,169 +3,202 @@ let dataGrid = [
     id: "1",
     title: "Home Default",
     image_url: "./assets/isotope/homepage/Fashion01.png",
-    link_url: "#",
+    link_url: "https://demo-zonex.myshopify.com/?preview_theme_id=136130756856",
     isotope: "fashion",
+    target: "_blank",
   },
   {
     id: "2",
     title: "Home Season",
     image_url: "./assets/isotope/homepage/Fashion02.png",
-    link_url: "#",
+    link_url: "https://demo-zonex.myshopify.com/?preview_theme_id=136150483192",
     isotope: "fashion",
+    target: "_blank",
   },
   {
     id: "3",
     title: "Home Classic",
     image_url: "./assets/isotope/homepage/Fashion03.png",
-    link_url: "#",
+    link_url: "https://demo-zonex.myshopify.com/?preview_theme_id=136156020984",
     isotope: "fashion",
+    target: "_blank",
   },
   {
     id: "4",
     title: "Home Slide Show",
     image_url: "./assets/isotope/homepage/Fashion04.png",
-    link_url: "#",
+    link_url: "https://demo-zonex.myshopify.com/?preview_theme_id=136160870648",
     isotope: "other",
+    target: "_blank",
   },
   {
     id: "5",
     title: "Home Categories",
     image_url: "./assets/isotope/homepage/Fashion05.png",
-    link_url: "#",
+    link_url: "https://demo-zonex.myshopify.com/?preview_theme_id=136131707128",
     isotope: "fashion",
+    target: "_blank",
   },
   {
     id: "6",
     title: "Home Best Selling",
     image_url: "./assets/isotope/homepage/Fashion06.png",
-    link_url: "#",
+    link_url: "https://demo-zonex.myshopify.com/?preview_theme_id=136156152056",
     isotope: "fashion",
+    target: "_blank",
   },
   {
     id: "7",
     title: "Home Lookbook",
     image_url: "./assets/isotope/homepage/Fashion07.png",
-    link_url: "#",
+    link_url: "https://demo-zonex.myshopify.com/?preview_theme_id=136161984760",
     isotope: "fashion",
+    target: "_blank",
   },
   {
     id: "8",
     title: "Home Collection",
     image_url: "./assets/isotope/homepage/Fashion08.png",
-    link_url: "#",
+    link_url: "https://demo-zonex.myshopify.com/?preview_theme_id=136167194872",
     isotope: "fashion",
+    target: "_blank",
   },
   {
     id: "9",
     title: "Home New Trends",
     image_url: "./assets/isotope/homepage/Fashion09.png",
-    link_url: "#",
+    link_url: "https://demo-zonex.myshopify.com/?preview_theme_id=136135639288",
     isotope: "fashion",
+    target: "_blank",
   },
   {
     id: "10",
     title: "Home Menu Vertical",
     image_url: "./assets/isotope/homepage/Fashion10.png",
-    link_url: "#",
+    link_url: "https://demo-zonex.myshopify.com/?preview_theme_id=136150122744",
     isotope: "fashion",
+    target: "_blank",
   },
   {
     id: "11",
     title: "Home Funiture 01",
     image_url: "./assets/isotope/homepage/Furniture01.png",
-    link_url: "#",
+    link_url: "https://demo-zonex.myshopify.com/?preview_theme_id=136155070712",
     isotope: "furniture",
+    target: "_blank",
   },
   {
     id: "12",
     title: "Home Funiture 02",
     image_url: "./assets/isotope/homepage/Furniture02.png",
-    link_url: "#",
+    link_url: "https://demo-zonex.myshopify.com/?preview_theme_id=136161231096",
     isotope: "furniture",
+    target: "_blank",
   },
   {
     id: "13",
     title: "Home Digital",
     image_url: "./assets/isotope/homepage/Electronic.png",
-    link_url: "#",
+    link_url: "https://demo-zonex.myshopify.com/?preview_theme_id=136136229112",
     isotope: "electronics",
+    target: "_blank",
   },
   {
     id: "14",
     title: "Home Flower",
     image_url: "./assets/isotope/homepage/Flower.png",
-    link_url: "#",
+    link_url: "https://demo-zonex.myshopify.com/?preview_theme_id=136161526008",
     isotope: "flower",
+    target: "_blank",
   },
   {
     id: "15",
     title: "Home Sport",
     image_url: "./assets/isotope/homepage/Sport.png",
-    link_url: "#",
+    link_url: "https://demo-zonex.myshopify.com/?preview_theme_id=136166703352",
     isotope: "sport",
+    target: "_blank",
   },
   {
     id: "16",
     title: "Home Funiture 03",
     image_url: "./assets/isotope/homepage/Furniture03.png",
-    link_url: "#",
+    link_url:
+      "https://demo-zonex-2.myshopify.com/?preview_theme_id=135949648099",
     isotope: "furniture",
+    target: "_blank",
   },
   {
     id: "17",
     title: "Home Funiture 04",
     image_url: "./assets/isotope/homepage/Furniture04.png",
-    link_url: "#",
+    link_url:
+      "https://demo-zonex-2.myshopify.com/?preview_theme_id=135971471587",
     isotope: "furniture",
+    target: "_blank",
   },
   {
     id: "18",
     title: "Home Funiture 05",
     image_url: "./assets/isotope/homepage/Furniture05.png",
-    link_url: "#",
+    link_url:
+      "https://demo-zonex-2.myshopify.com/?preview_theme_id=135960920291",
     isotope: "furniture",
+    target: "_blank",
   },
   {
     id: "19",
     title: "Home Funiture 06",
     image_url: "./assets/isotope/homepage/Furniture06.png",
-    link_url: "#",
+    link_url:
+      "https://demo-zonex-2.myshopify.com/?preview_theme_id=135973208291",
     isotope: "furniture",
+    target: "_blank",
   },
   {
     id: "20",
     title: "Home Fashion 11",
     image_url: "./assets/isotope/homepage/Fashion11.png",
-    link_url: "#",
+    link_url:
+      "https://demo-zonex-2.myshopify.com/?preview_theme_id=135949713635",
     isotope: "fashion",
+    target: "_blank",
   },
   {
     id: "21",
     title: "Home Fashion 12",
     image_url: "./assets/isotope/homepage/Fashion12.png",
-    link_url: "#",
+    link_url:
+      "https://demo-zonex-2.myshopify.com/?preview_theme_id=135950696675",
     isotope: "fashion",
+    target: "_blank",
   },
   {
     id: "22",
     title: "Home Fashion 13",
     image_url: "./assets/isotope/homepage/Fashion13.png",
-    link_url: "#",
+    link_url:
+      "https://demo-zonex-2.myshopify.com/?preview_theme_id=135954104547",
     isotope: "fashion",
+    target: "_blank",
   },
   {
     id: "23",
     title: "Home Fashion 14",
     image_url: "./assets/isotope/homepage/Fashion14.png",
-    link_url: "#",
+    link_url:
+      "https://demo-zonex-2.myshopify.com/?preview_theme_id=135964393699",
     isotope: "fashion",
+    target: "_blank",
   },
   {
     id: "24",
     title: "Home Fashion 15",
     image_url: "./assets/isotope/homepage/Fashion15.png",
-    link_url: "#",
+    link_url:
+      "https://demo-zonex-2.myshopify.com/?preview_theme_id=135964721379",
     isotope: "fashion",
+    target: "_blank",
   },
 ];
 
@@ -180,10 +213,10 @@ let htmls = dataGrid.map((item, index) => {
           background-image: url('${item.image_url}');
         "
       >
-        <a href="${item.link_url}"> </a>
+        <a href="${item.link_url}" target="${item.target}"> </a>
       </div>
       <div class="t4s-homepage-title">
-        <p><a href="${item.link_url}">${item.title}</a></p>
+        <p><a href="${item.link_url}" target="${item.target}">${item.title}</a></p>
       </div>
     </div>
   </div>`;
