@@ -2095,6 +2095,9 @@ a:hover {
   }
 }
 @media screen and (max-width: 475px) {
+  .t4s-combo-deal .t4s-box-content .t4s-box-group_btn a:not(:last-child) {
+    margin-right: 0;
+  }
   .t4s-combo-deal .t4s-box-content .t4s-box-open_store {
     display: flex;
     flex-direction: column;
