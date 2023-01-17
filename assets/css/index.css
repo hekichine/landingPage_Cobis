@@ -256,7 +256,7 @@ a:hover {
   line-height: 32px;
   font-family: var(--ff);
   color: #828c9e;
-  margin-bottom: 56px;
+  margin-bottom: 16px;
 }
 .t4s-hero-banner .t4s-content-group_btn {
   display: flex;
@@ -349,6 +349,27 @@ a:hover {
 .t4s-hero-banner .t4s-layer4 {
   bottom: 27%;
   right: 0;
+}
+.t4s-hero-banner .t4s-developed-by {
+  display: flex;
+  align-items: center;
+  margin-bottom: 56px;
+}
+.t4s-hero-banner .t4s-developed-by .t4s-dev-img {
+  margin-right: 10px;
+}
+.t4s-hero-banner .t4s-dev-content > * {
+  font-size: 15px;
+  line-height: 22px;
+  font-family: var(--ff);
+}
+.t4s-hero-banner .t4s-dev-content span {
+  font-weight: 400;
+  color: #8f8f94;
+}
+.t4s-hero-banner .t4s-dev-content h4 {
+  font-weight: 600;
+  color: #2d2d2f;
 }
 /* section why choose cobis */
 
@@ -1611,6 +1632,9 @@ a:hover {
 }
 
 @media screen and (max-width: 1440px) {
+  .t4s-hero-banner .t4s-developed-by {
+    justify-content: center;
+  }
   .t4s-combo-deal .t4s-box-content .t4s-box-group_btn .t4s-open-store {
     margin-inline-end: 16px;
   }
@@ -1720,6 +1744,9 @@ a:hover {
   }
 }
 @media screen and (max-width: 1365px) {
+  .t4s-hero-banner .t4s-developed-by {
+    margin-bottom: 40px;
+  }
   .t4s-combo-deal .t4s-section-heading {
     margin-bottom: 40px;
   }
@@ -1799,6 +1826,9 @@ a:hover {
   }
 }
 @media screen and (max-width: 1023px) {
+  .t4s-hero-banner .t4s-developed-by {
+    margin-bottom: 30px;
+  }
   .t4s-combo-deal .t4s-box-content .t4s-box-open_store h4 {
     font-size: 30px;
   }
@@ -1951,6 +1981,12 @@ a:hover {
   }
 }
 @media screen and (max-width: 767px) {
+  .t4s-reason-get_cobis.cobis3 .t4s-section-inner {
+    padding-bottom: 40px;
+  }
+  .t4s-hero-banner .t4s-developed-by {
+    margin-bottom: 20px;
+  }
   .t4s-hurry-up .t4s-open-free {
     padding: 8px 8px 8px 8px;
     min-height: 56px;
@@ -2183,8 +2219,8 @@ a:hover {
     display: none;
   }
   .t4s-video-testimonial .t4s-frame-content .t4s-chanel-description p {
-    /* display: none; */
-    font-size: 13px;
+    display: none;
+    /* font-size: 12px; */
   }
   .t4s-video-testimonial .t4s-item-inner .t4s-frame .t4s-thumbnail {
     margin-right: 5px;
