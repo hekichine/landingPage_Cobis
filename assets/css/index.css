@@ -1130,9 +1130,13 @@ a:hover {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  background-image: url("../img/combo-deal/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left bottom;
 }
 .bee-combo-deal .bee-box-circle {
-  margin-inline-end: 32px;
+  margin-inline-end: 40px;
   width: fit-content;
 }
 .bee-combo-deal .bee-box-circle .bee-box-icon {
@@ -1163,11 +1167,11 @@ a:hover {
   color: #39393c;
   margin-bottom: 24px;
 }
-.bee-combo-deal .bee-box-content .bee-box-group_btn a {
+.bee-combo-deal .bee-box-content a {
   border-radius: 24px;
   min-height: 48px;
   min-width: 216px;
-  padding: 14px 24px;
+  padding: 0 31px;
   font-size: 16px;
   font-weight: 500;
   font-family: var(--ff);
@@ -1175,23 +1179,34 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
-.bee-combo-deal .bee-box-content .bee-box-group_btn .bee-open-store {
+.bee-combo-deal .bee-box-content .bee-open-store {
   border: 2px solid #39393c;
-  margin-inline-end: 134px;
   background-color: #fff;
   color: #39393c;
+}
+.bee-combo-deal .bee-box-content .bee-box-group_btn {
+  display: flex;
+  flex-direction: column;
+}
+.bee-combo-deal .bee-box-content .bee-box-open_store {
+  margin-right: 170px;
 }
 .bee-combo-deal .bee-box-content .bee-box-group_btn .bee-buy-cobis {
   box-shadow: 4px 10px 32px rgba(0, 0, 0, 0.15);
   background-color: #fff;
   color: #39393c;
-  margin-inline-end: 16px;
+  margin-bottom: 24px;
 }
 .bee-combo-deal .bee-box-content .bee-box-group_btn .bee-install-ecom {
   background-color: #2d2d2f;
   color: #54fa06;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
-
+.bee-combo-deal .bee-box-content .bee-box-group_btn span {
+  margin-right: 8px;
+}
 .bee-combo-deal .bee-box-content .t45s-box-circle-inner {
   animation-name: spins;
   animation-duration: 15s;
@@ -1525,6 +1540,11 @@ a:hover {
   height: 15px;
 }
 @media (hover: hover) {
+  .bee-combo-deal .bee-box-content .bee-open-store:hover {
+    background-color: var(--cl-pr);
+    border-color: var(--cl-pr);
+    color: #fff;
+  }
   .bee-hurry-up .bee-open-free:hover {
     background-color: var(--cl-pr);
     color: var(--text-cl-hv);
