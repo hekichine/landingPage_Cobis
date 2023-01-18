@@ -1,16 +1,16 @@
 $(document).ready(function () {
   // toggle menu nav
-  $(".t4s-mobile-menu_inner").click(function () {
-    $(".t4s-overlay").toggle();
-    $(".t4s-menu-nav_inner").toggleClass("active");
+  $(".bee-mobile-menu_inner").click(function () {
+    $(".bee-overlay").toggle();
+    $(".bee-menu-nav_inner").toggleClass("active");
   });
-  $(".t4s-overlay").click(function () {
-    $(".t4s-menu-nav_inner").toggleClass("active");
+  $(".bee-overlay").click(function () {
+    $(".bee-menu-nav_inner").toggleClass("active");
     $(this).toggle();
   });
-  $(".t4s-btn-close_menu").click(function () {
-    $(".t4s-menu-nav_inner").toggleClass("active");
-    $(".t4s-overlay").toggle();
+  $(".bee-btn-close_menu").click(function () {
+    $(".bee-menu-nav_inner").toggleClass("active");
+    $(".bee-overlay").toggle();
   });
 
   // paralax layer
@@ -26,18 +26,18 @@ $(document).ready(function () {
     });
   }
   // isotope
-  var $grid = $(".t4s-isotope-grid").isotope({
-    itemSelector: ".t4s-col-item",
+  var $grid = $(".bee-isotope-grid").isotope({
+    itemSelector: ".bee-col-item",
     layoutMode: "fitRows",
   });
   // bind filter button click
-  $(".t4s-filters-button-group").on("click", "button", function () {
+  $(".bee-filters-button-group").on("click", "button", function () {
     var filterValue = $(this).attr("data-filter");
     // use filterFn if matches value
     $grid.isotope({ filter: filterValue });
   });
   // change is-checked class on buttons
-  $(".t4s-button-group").each(function (i, buttonGroup) {
+  $(".bee-button-group").each(function (i, buttonGroup) {
     var $buttonGroup = $(buttonGroup);
     $buttonGroup.on("click", "button", function () {
       $buttonGroup.find(".is-checked").removeClass("is-checked");
@@ -46,17 +46,17 @@ $(document).ready(function () {
   });
 
   // slide show product+page
-  let btn_review = this.querySelectorAll(".t4s-btn-review");
-  let slide_review = this.querySelectorAll(".t4s-slide-review");
+  let btn_review = this.querySelectorAll(".bee-btn-review");
+  let slide_review = this.querySelectorAll(".bee-slide-review");
 
   btn_review.forEach((btn, index) => {
     let slide = slide_review[index];
     btn.onclick = function () {
       document
-        .querySelector(".t4s-btn-review.is-active")
+        .querySelector(".bee-btn-review.is-active")
         .classList.remove("is-active");
       document
-        .querySelector(".t4s-slide-review.is-active")
+        .querySelector(".bee-slide-review.is-active")
         .classList.remove("is-active");
       this.classList.add("is-active");
       slide.classList.add("is-active");
@@ -86,7 +86,7 @@ $(document).ready(function () {
   //   item.style.height = h;
   //   console.log(h);
   // });
-  let backtop = $(".t4s-back-to-top");
+  let backtop = $(".bee-back-to-top");
   $(window).scroll(function () {
     let scroll = $(window).scrollTop();
     if (scroll >= 300) {

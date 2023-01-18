@@ -202,20 +202,20 @@ let dataGrid = [
   },
 ];
 
-let grid_item = document.querySelector(".t4s-isotope-grid");
+let grid_item = document.querySelector(".bee-isotope-grid");
 
 let htmls = dataGrid.map((item, index) => {
-  return `<div class="t4s-col-item ${item.isotope} col-lg-4 col-md-4 col-sm-6 col-12">
-    <div class="t4s-item-inner ratio-4x3">
+  return `<div class="bee-col-item ${item.isotope} col-lg-4 col-md-4 col-sm-6 col-12">
+    <div class="bee-item-inner ratio-4x3">
       <div
-        class="t4s-item-img ratio t4s-oh"
+        class="bee-item-img ratio bee-oh"
         style="
           background-image: url('${item.image_url}');
         "
       >
         <a href="${item.link_url}" target="${item.target}"> </a>
       </div>
-      <div class="t4s-homepage-title">
+      <div class="bee-homepage-title">
         <p><a href="${item.link_url}" target="${item.target}">${item.title}</a></p>
       </div>
     </div>
@@ -225,7 +225,7 @@ let htmls = dataGrid.map((item, index) => {
 grid_item.innerHTML = htmls.join(" ");
 
 // render exclusive grid
-let exclusive_grid = document.querySelector(".t4s-gird-exclusive");
+let exclusive_grid = document.querySelector(".bee-gird-exclusive");
 
 let dataExclusive = [
   {
@@ -315,21 +315,21 @@ let dataExclusive = [
 ];
 
 let html1s = dataExclusive.map((item, index) => {
-  return `<div class="t4s-col-item">
-              <div class="t4s-item-inner">
+  return `<div class="bee-col-item">
+              <div class="bee-item-inner">
                 <div
-                  class="t4s-item-img d-flex justify-content-center align-items-center"
+                  class="bee-item-img d-flex justify-content-center align-items-center"
                 >
-                  <div class="t4s-item-thumbnail t4s-pr">
+                  <div class="bee-item-thumbnail bee-pr">
                       <img src="${item.url_thumbnail}" />
                       ${
                         item.exclusive_save
-                          ? `<div class="t4s-save-tag t4s-pa"><span>Save ${item.exclusive_save}</span></div>`
+                          ? `<div class="bee-save-tag bee-pa"><span>Save ${item.exclusive_save}</span></div>`
                           : ""
                       }
                   </div>
                 </div>
-                <div class="t4s-item-content">
+                <div class="bee-item-content">
                   <h4>${item.title}</h4>
                   <p>${item.des}</p>
                 </div>
