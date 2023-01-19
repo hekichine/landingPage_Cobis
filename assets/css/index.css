@@ -1139,6 +1139,9 @@ a:hover {
 .bee-combo-deal .bee-box-circle {
   margin-inline-end: 40px;
   width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .bee-combo-deal .bee-box-circle .bee-box-icon {
   top: 50%;
@@ -1208,14 +1211,14 @@ a:hover {
 .bee-combo-deal .bee-box-content .bee-box-group_btn span {
   margin-right: 8px;
 }
-.bee-combo-deal .bee-box-content .t45s-box-circle-inner {
+.bee-combo-deal .bee-box-content .bee-box-circle-inner {
   animation-name: spins;
   animation-duration: 15s;
   animation-delay: 0s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
-.bee-combo-deal .bee-box-content .t45s-box-circle-inner img {
+.bee-combo-deal .bee-box-content .bee-box-circle-inner img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -1630,9 +1633,15 @@ a:hover {
   .bee-hero-banner .bee-banner-image {
     left: 27%;
   }
+  .bee-landing-store .bee-store-svg {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1600px) {
+  .bee-landing-store .bee-section-inner .bee-col-left .bee-item-inner {
+    padding: 0;
+  }
   .bee-customer-support .bee-content {
     padding-left: 0;
   }
@@ -1646,9 +1655,6 @@ a:hover {
 
   .bee-hero-banner .bee-hero-banner_inner .bee-banner-content {
     left: 3%;
-  }
-  .bee-landing-store .bee-store-svg {
-    display: none;
   }
 }
 
@@ -1781,7 +1787,6 @@ a:hover {
   }
   .bee-landing-store .bee-section-inner .bee-col-left .bee-item-inner {
     padding: 0;
-    padding-left: 50px;
   }
   .bee-video-testimonial .bee-frame-content a {
     font-size: 22px;
@@ -2005,6 +2010,16 @@ a:hover {
   }
 }
 @media screen and (max-width: 767px) {
+  .bee-reason-get_cobis .bee-item-inner .bee-item-content h5 {
+    font-size: 14px;
+  }
+  .bee-reason-get_cobis .bee-item-inner .bee-item-content {
+    margin-top: 15px;
+  }
+  .bee-combo-deal .bee-box-circle {
+    margin: 0;
+    margin-bottom: 15px;
+  }
   .bee-combo-deal .bee-box-content {
     padding-bottom: 40px;
   }
@@ -2093,7 +2108,7 @@ a:hover {
     margin-bottom: 0;
   }
   .bee-reason-get_cobis .bee-item-inner .bee-item-content h4 {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .bee-landing-store .bee-item-inner .bee-item-content p {
@@ -2113,7 +2128,7 @@ a:hover {
     font-size: 20px;
   }
   .bee-exclusive-deal .bee-item-inner .bee-item-content p {
-    font-size: 16px;
+    font-size: 14px;
   }
   .bee-exclusive-deal .bee-item-inner {
     padding-bottom: 10px;
@@ -2182,7 +2197,7 @@ a:hover {
     width: 30px;
     height: 30px;
   }
-  .bee-combo-deal .bee-box-content .t45s-box-circle-inner {
+  .bee-combo-deal .bee-box-content .bee-box-circle-inner {
     width: 200px;
     height: 200px;
   }
@@ -2209,12 +2224,13 @@ a:hover {
   }
 }
 @media screen and (max-width: 425px) {
-  .bee-combo-deal .bee-box-content .t45s-box-circle {
+  .bee-combo-deal .bee-box-content .bee-box-circle {
     width: calc(100% - 20px);
     overflow: hidden;
     margin: 0 auto;
+    margin-bottom: 15px;
   }
-  .bee-combo-deal .bee-box-content .t45s-box-circle-inner img {
+  .bee-combo-deal .bee-box-content .bee-box-circle-inner img {
     width: 100%;
     height: 100%;
     object-fit: cover;
