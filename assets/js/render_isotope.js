@@ -338,6 +338,6 @@ let html1s = dataExclusive.map((item, index) => {
 });
 exclusive_grid.innerHTML = html1s.join(" ");
 
-dataGrid.map((item, index) => {
-  console.log("Home: " + item.image_url + " " + "id:" + item.link_url);
-});
+// dataGrid.map((item, index) => {
+//   console.log("Home: " + item.image_url + " " + "id:" + item.link_url);
+// });

@@ -353,7 +353,7 @@ a:hover {
 .bee-hero-banner .bee-developed-by {
   display: flex;
   align-items: center;
-  margin-bottom: 56px;
+  margin-bottom: 32px;
 }
 .bee-hero-banner .bee-developed-by .bee-dev-img {
   margin-right: 10px;
@@ -964,6 +964,9 @@ a:hover {
   margin: 0;
 }
 /* testimonial video */
+section.bee-video-testimonial {
+  display: none;
+}
 .bee-video-testimonial .bee-section-inner {
   padding-top: 80px;
   padding-bottom: 65px;
@@ -1436,13 +1439,17 @@ a:hover {
 }
 .bee-hurry-up .bee-btn-purchase {
   display: inline-flex;
-  min-height: 64px;
+  min-height: 56px;
   border-radius: 100px;
-  background-color: #54fa06;
+  background-color: #b594f5;
   width: fit-content;
   align-items: center;
   justify-content: center;
-  padding: 14px 16px 14px 32px;
+  padding: 17px 32px;
+  color: #fff;
+}
+.bee-hurry-up .bee-btn-purchase svg {
+  margin-inline-end: 16px;
 }
 .bee-hurry-up .bee-btn-purchase .bee-btn-price {
   display: inline-flex;
@@ -1469,9 +1476,9 @@ a:hover {
   margin-left: 8px;
 }
 .bee-hurry-up .bee-open-free {
-  min-height: 64px;
+  min-height: 56px;
   margin-left: 24px;
-  border: 2px solid #54fa06;
+  border: 2px solid #b594f5;
   border-radius: 100px;
   font-size: 20px;
   font-weight: 500;
@@ -1479,7 +1486,7 @@ a:hover {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  color: #54fa06;
+  color: #b594f5;
   min-width: 211px;
 }
 /* footer */
