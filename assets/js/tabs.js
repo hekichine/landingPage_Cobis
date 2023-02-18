@@ -4,7 +4,7 @@ let dataProducts = [
     title: "External Zoom",
     img_url: "./assets/img/tabs/products/external-zoom.png",
     link_url:
-      "https://demo-zonex.myshopify.com/products/boy-shirt-in-crinkle-gingham?view=iexternal-zoom",
+      "https://demo-zonex.myshopify.com/products/boy-shirt-in-crinkle-gingham?view=iexternal-zoom&preview_theme_id=136130756856",
     target: "_blank",
   },
   {
@@ -12,7 +12,7 @@ let dataProducts = [
     title: "Extra Top Rate",
     img_url: "./assets/img/tabs/products/extra-top-rate.png",
     link_url:
-      "https://demo-zonex.myshopify.com/collections/men/products/knitted-lace-up-sneakers?view=product-extra-top-rate",
+      "https://demo-zonex.myshopify.com/collections/men/products/knitted-lace-up-sneakers?view=product-extra-top-rate&preview_theme_id=136130756856",
     target: "_blank",
   },
   {
@@ -20,7 +20,7 @@ let dataProducts = [
     title: "Grouped Products",
     img_url: "./assets/img/tabs/products/group-products.png",
     link_url:
-      "https://demo-zonex.myshopify.com/collections/men/products/airism-full-zip-hoodie",
+      "https://demo-zonex.myshopify.com/collections/men/products/airism-full-zip-hoodie?preview_theme_id=136130756856",
     target: "_blank",
   },
   {
@@ -28,7 +28,7 @@ let dataProducts = [
     title: "Inner Zoom",
     img_url: "./assets/img/tabs/products/inner-zoom.png",
     link_url:
-      "https://demo-zonex.myshopify.com/products/boy-shirt-in-crinkle-gingham?view=inner-zoom",
+      "https://demo-zonex.myshopify.com/products/boy-shirt-in-crinkle-gingham?view=inner-zoom?preview_theme_id=136130756856",
     target: "_blank",
   },
   {
@@ -36,7 +36,7 @@ let dataProducts = [
     title: "3D, AR Models",
     img_url: "./assets/img/tabs/products/product-3d.png",
     link_url:
-      "https://demo-zonex.myshopify.com/collections/bags/products/dance-bag-nylon",
+      "https://demo-zonex.myshopify.com/collections/bags/products/dance-bag-nylon?preview_theme_id=136130756856",
     target: "_blank",
   },
   {
@@ -44,7 +44,7 @@ let dataProducts = [
     title: "360° viewer",
     img_url: "./assets/img/tabs/products/product-360.png",
     link_url:
-      "https://demo-zonex.myshopify.com/collections/desks-tables/products/dsw-chair",
+      "https://demo-zonex.myshopify.com/collections/desks-tables/products/dsw-chair?preview_theme_id=136130756856",
     target: "_blank",
   },
   {
@@ -52,7 +52,7 @@ let dataProducts = [
     title: "Product Carousel",
     img_url: "./assets/img/tabs/products/product-carousel.png",
     link_url:
-      "https://demo-zonex.myshopify.com/collections/women/products/ultrabreathe-sports-bra?view=product-thumbs-carousel",
+      "https://demo-zonex.myshopify.com/collections/women/products/ultrabreathe-sports-bra?view=product-thumbs-carousel&preview_theme_id=136130756856",
     target: "_blank",
   },
   {
@@ -60,7 +60,7 @@ let dataProducts = [
     title: "Options & Customizer",
     img_url: "./assets/img/tabs/products/product-option.png",
     link_url:
-      "https://demo-zonex.myshopify.com/products/fly-front-polo-shirt?view=options-customizer",
+      "https://demo-zonex.myshopify.com/products/fly-front-polo-shirt?view=options-customizer&preview_theme_id=136130756856",
     target: "_blank",
   },
   {
@@ -68,7 +68,7 @@ let dataProducts = [
     title: "Product Sidebar",
     img_url: "./assets/img/tabs/products/product-sidebar.png",
     link_url:
-      "https://demo-zonex.myshopify.com/collections/best-seller/products/windproof-fluffy-fleece?view=product-sidebar",
+      "https://demo-zonex.myshopify.com/collections/best-seller/products/windproof-fluffy-fleece?view=product-sidebar&preview_theme_id=136130756856",
     target: "_blank",
   },
   {
@@ -76,7 +76,7 @@ let dataProducts = [
     title: "Product Thumbnail",
     img_url: "./assets/img/tabs/products/product-thumbnail.png",
     link_url:
-      "https://demo-zonex.myshopify.com/collections/best-seller/products/windproof-fluffy-fleece?view=product-thumbs-right",
+      "https://demo-zonex.myshopify.com/collections/best-seller/products/windproof-fluffy-fleece?view=product-thumbs-right&preview_theme_id=136130756856",
     target: "_blank",
   },
   {
@@ -84,7 +84,7 @@ let dataProducts = [
     title: "Product Video",
     img_url: "./assets/img/tabs/products/product-video.png",
     link_url:
-      "https://demo-zonex.myshopify.com/collections/women/products/products-jersey-puff-sleeve-top",
+      "https://demo-zonex.myshopify.com/collections/women/products/products-jersey-puff-sleeve-top?preview_theme_id=136130756856",
     target: "_blank",
   },
   {
@@ -92,7 +92,7 @@ let dataProducts = [
     title: "Sidebar Hide",
     img_url: "./assets/img/tabs/products/sidebar-hide.png",
     link_url:
-      "https://demo-zonex.myshopify.com/collections/sale-off/products/cashmere-lined-leather-gloves?view=product-sidebar-hide",
+      "https://demo-zonex.myshopify.com/collections/sale-off/products/cashmere-lined-leather-gloves?view=product-sidebar-hide?preview_theme_id=136130756856",
     target: "_blank",
   },
   {
@@ -100,7 +100,7 @@ let dataProducts = [
     title: "Variable Product",
     img_url: "./assets/img/tabs/products/variable-product.png",
     link_url:
-      "https://demo-zonex.myshopify.com/collections/men/products/knitted-lace-up-sneakers",
+      "https://demo-zonex.myshopify.com/collections/men/products/knitted-lace-up-sneakers?preview_theme_id=136130756856",
     target: "_blank",
   },
 ];
