@@ -305,7 +305,7 @@ a:hover {
   margin-inline-start: 12px;
 }
 .bee-hero-banner .bee-content-sale {
-  background-color: #e6e6eb;
+  /* background-color: #e6e6eb; */
   border-radius: 100px;
   width: fit-content;
   display: inline-flex;
@@ -318,8 +318,9 @@ a:hover {
   font-weight: 500;
   line-height: 14px;
   font-family: var(--ff);
-  padding: 9px 16px;
+  /* padding: 9px 16px; */
   color: #39393c;
+  padding: 0;
 }
 /* banner image */
 .bee-hero-banner .bee-banner-image {
@@ -354,6 +355,7 @@ a:hover {
   display: flex;
   align-items: center;
   margin-bottom: 32px;
+  display: none;
 }
 .bee-hero-banner .bee-developed-by .bee-dev-img {
   margin-right: 10px;
