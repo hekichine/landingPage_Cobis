@@ -1650,6 +1650,7 @@ section.bee-video-testimonial {
   border-radius: 100%;
   transition: 0.5s ease;
   transform: translateX(-300%);
+  overflow: hidden;
 }
 .btn-show-popup.active {
   transform: translateX(0);
@@ -1692,6 +1693,9 @@ section.bee-video-testimonial {
   opacity: 0.8;
 }
 @media (hover: hover) {
+  .btn-show-popup:hover {
+    cursor: pointer;
+  }
   .btn_popup_password:hover {
     color: #fff;
     opacity: 0.8;
