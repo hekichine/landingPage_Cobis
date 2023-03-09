@@ -1556,7 +1556,7 @@ section.bee-video-testimonial {
 }
 
 .bee_popup_password {
-  transition: 0.25s ease;
+  transition: 0.05s ease;
   position: fixed;
   bottom: 8%;
   left: 30px;
@@ -1688,6 +1688,10 @@ section.bee-video-testimonial {
 }
 .visible_password {
   display: block !important;
+}
+.btn_popup_password:hover {
+  color: #fff;
+  opacity: 0.8;
 }
 @media (hover: hover) {
   .bee_popup_password:hover {
