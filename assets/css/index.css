@@ -72,6 +72,11 @@ a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+}
+.bee-top-bar .bee-top-bar_slider {
+  overflow: hidden;
+  height: 22px;
 }
 .bee-top-bar .bee-top-bar_icon {
   width: 14px;
