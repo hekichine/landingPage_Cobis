@@ -137,4 +137,13 @@ $(document).ready(function () {
     $(".bee_oveflow").removeClass("visible_password");
     $(".btn-show-popup").addClass("active");
   });
+
+  //install app
+  $(".bee-btn-register").click(function (e) {
+    e.preventDefault();
+    window.open(
+      `https://ecomposer.app/install?shop=${$("#bee-text-input-register").val()}`,
+      "_blank"
+    );
+  });
 });

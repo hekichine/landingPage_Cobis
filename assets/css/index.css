@@ -2191,6 +2191,7 @@ section.bee-video-testimonial {
   .bee-customer-support .bee-box {
     margin: 15px 0 !important;
     min-width: 290px;
+    text-align: center;
   }
   .bee_content_popup_password .popup-inner {
     padding: 0;
@@ -2231,7 +2232,7 @@ section.bee-video-testimonial {
     margin-bottom: 15px;
   }
   .bee-sticky-bar .bee-sticky-bar_btn {
-    font-size: 10px;
+    font-size: 12px;
   }
   .bee-exclusive-deal .bee-section-inner {
     padding: 40px 0;
@@ -2361,12 +2362,20 @@ section.bee-video-testimonial {
   }
 }
 @media screen and (max-width: 550px) {
+  .bee-sticky-bar .bee-sticky-bar_btn {
+    font-size: 12px;
+    flex-wrap: wrap;
+  }
+  .bee-sticky-bar {
+    padding: 0 2px;
+  }
   .btn-show-popup {
     bottom: 12%;
   }
   .bee-back-to-top {
-    bottom: 70px;
+    bottom: 12%;
   }
+
   .bee-combo-deal .bee-box-content .bee-box-open_store {
     margin-right: 0;
     margin-bottom: 20px;
@@ -2400,9 +2409,7 @@ section.bee-video-testimonial {
     min-height: 40px;
     padding: 10px 15px;
   }
-  .bee-sticky-bar .bee-sticky-bar_btn {
-    font-size: 7px;
-  }
+
   .bee-landing-store .bee-register-store span {
     display: none;
   }
