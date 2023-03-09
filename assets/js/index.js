@@ -102,13 +102,14 @@ $(document).ready(function () {
   // header sticky
 
   // popup maginific
-  $(".link_demo_password").click(function (e) {
+  $(document).on("click", ".link_demo_password", function (e) {
     e.preventDefault();
     var href = $(this).attr("href");
     $(".bee_popup_password").addClass("active");
     $(".bee_oveflow").addClass("visible_password");
     $(".btn_popup_password").attr("href", `${href}`);
     $(".btn-show-popup").removeClass("active");
+    $(".link_demo_password").removeClass("link_demo_password");
   });
 
   $(".bee_oveflow").click(function (e) {
@@ -120,7 +121,16 @@ $(document).ready(function () {
   $(".btn-show-popup").click(function () {
     $(".bee_popup_password").addClass("active");
     $(".bee_oveflow").addClass("visible_password");
+    $(".btn_popup_password").attr(
+      "href",
+      `https://demo-zonex.myshopify.com/?preview_theme_id=136130756856`
+    );
     $(this).removeClass("active");
+  });
+  $(".btn_popup_password").click(function () {
+    $(".bee_popup_password").removeClass("active");
+    $(".bee_oveflow").removeClass("visible_password");
+    $(".btn-show-popup").addClass("active");
   });
   $(".btn-minisize").click(function () {
     $(".bee_popup_password").removeClass("active");
