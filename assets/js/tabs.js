@@ -111,7 +111,7 @@ let render_Products = () => {
             >
                 <div class="bee-item-inner bee_ratio_tab">
                 <div class="bee-item-img bee_ratio">
-                    <a href="${item.link_url}" target="${item.target}">
+                    <a href="${item.link_url}" target="${item.target}" class="link_demo_password">
                     <img
                         src="${item.img_url}"
                         alt=""
@@ -120,7 +120,7 @@ let render_Products = () => {
                 </div>
                 <div class="bee-item-content">
                     <div>
-                    <a href="${item.link_url}" target="${item.target}">${item.title}</a>
+                    <a href="${item.link_url}" target="${item.target}" class="link_demo_password">${item.title}</a>
                     </div>
                 </div>
                 </div>
@@ -194,13 +194,13 @@ let render_Collections = () => {
             >
                 <div class="bee-item-inner bee_ratio_tab">
                 <div class="bee-item-img bee_ratio">
-                    <a href="${item.link_url}" target="${item.target}">
+                    <a href="${item.link_url}" target="${item.target}" class="link_demo_password">
                     <img src="${item.img_url}" alt="" />
                     </a>
                 </div>
                 <div class="bee-item-content">
                     <div>
-                    <a href="${item.link_url}" target="${item.target}">${item.title}</a>
+                    <a href="${item.link_url}" target="${item.target}" class="link_demo_password">${item.title}</a>
                     </div>
                 </div>
                 </div>
@@ -264,13 +264,13 @@ let renderBlog = () => {
         >
             <div class="bee-item-inner bee_ratio_tab">
             <div class="bee-item-img bee_ratio">
-                <a href="${item.link_url}" target="${item.target}">
+                <a href="${item.link_url}" target="${item.target}" class="link_demo_password">
                 <img src="${item.img_url}" alt="" />
                 </a>
             </div>
             <div class="bee-item-content">
                 <div>
-                <a href="${item.link_url}" target="${item.target}">${item.title}</a>
+                <a href="${item.link_url}" target="${item.target}" class="link_demo_password">${item.title}</a>
                 </div>
             </div>
             </div>
@@ -345,13 +345,13 @@ let renderPages = () => {
         >
             <div class="bee-item-inner bee_ratio_tab">
             <div class="bee-item-img bee_ratio">
-                <a href="${item.link_url}" target="${item.target}">
+                <a href="${item.link_url}" target="${item.target}" class="link_demo_password">
                 <img src="${item.img_url}" alt="" />
                 </a>
             </div>
             <div class="bee-item-content">
                 <div>
-                <a href="${item.link_url}" target="${item.target}">${item.title}</a>
+                <a href="${item.link_url}" target="${item.target}" class="link_demo_password">${item.title}</a>
                 </div>
             </div>
             </div>

@@ -205,7 +205,8 @@ let dataGrid = [
 let grid_item = document.querySelector(".bee-isotope-grid");
 
 let htmls = dataGrid.map((item, index) => {
-  return `<div class="bee-col-item ${item.isotope} col-lg-4 col-md-4 col-sm-6 col-12">
+  return `
+  <div class="bee-col-item ${item.isotope} col-lg-4 col-md-4 col-sm-6 col-12">
     <div class="bee-item-inner ratio-4x3">
       <div
         class="bee-item-img ratio bee-oh"
@@ -213,10 +214,10 @@ let htmls = dataGrid.map((item, index) => {
           background-image: url('${item.image_url}');
         "
       >
-        <a href="${item.link_url}" target="${item.target}"> </a>
+        <a href="${item.link_url}" target="${item.target}" class="link_demo_password"> </a>
       </div>
       <div class="bee-homepage-title">
-        <p><a href="${item.link_url}" target="${item.target}">${item.title}</a></p>
+        <p><a href="${item.link_url}" target="${item.target}" class="link_demo_password">${item.title}</a></p>
       </div>
     </div>
   </div>`;

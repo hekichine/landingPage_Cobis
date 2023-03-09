@@ -100,4 +100,19 @@ $(document).ready(function () {
   });
 
   // header sticky
+
+  // popup maginific
+  $(".link_demo_password").click(function (e) {
+    e.preventDefault();
+    var href = $(this).attr("href");
+    $(".bee_popup_password").addClass("visible_password");
+    $(".bee_oveflow").addClass("visible_password");
+    $(".btn_popup_password").attr("href", `${href}`);
+  });
+
+  $(".bee_oveflow").click(function (e) {
+    e.preventDefault();
+    $(".bee_popup_password").removeClass("visible_password");
+    $(".bee_oveflow").removeClass("visible_password");
+  });
 });
