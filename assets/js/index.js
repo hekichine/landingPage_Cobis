@@ -108,19 +108,23 @@ $(document).ready(function () {
     $(".bee_popup_password").addClass("active");
     $(".bee_oveflow").addClass("visible_password");
     $(".btn_popup_password").attr("href", `${href}`);
+    $(".btn-show-popup").removeClass("active");
   });
 
   $(".bee_oveflow").click(function (e) {
     e.preventDefault();
     $(".bee_popup_password").removeClass("active");
     $(".bee_oveflow").removeClass("visible_password");
+    $(".btn-show-popup").addClass("active");
   });
   $(".btn-show-popup").click(function () {
     $(".bee_popup_password").addClass("active");
     $(".bee_oveflow").addClass("visible_password");
+    $(this).removeClass("active");
   });
   $(".btn-minisize").click(function () {
     $(".bee_popup_password").removeClass("active");
     $(".bee_oveflow").removeClass("visible_password");
+    $(".btn-show-popup").addClass("active");
   });
 });
