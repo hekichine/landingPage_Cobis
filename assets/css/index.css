@@ -1455,6 +1455,7 @@ section.bee-video-testimonial {
   justify-content: center;
   padding: 17px 32px;
   color: #fff;
+  min-width: 211px;
 }
 .bee-hurry-up .bee-btn-purchase svg {
   margin-inline-end: 16px;
@@ -2187,6 +2188,10 @@ section.bee-video-testimonial {
   }
 }
 @media screen and (max-width: 767px) {
+  .bee-customer-support .bee-box {
+    margin: 15px 0 !important;
+    min-width: 290px;
+  }
   .bee_content_popup_password .popup-inner {
     padding: 0;
   }
